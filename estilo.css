@@ -1,0 +1,116 @@
+body{
+    background-color: #0c1014;
+    color: white;
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.titulo{
+    font-size: 62px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 46px 0px;
+}
+
+.cabecalho{
+    display: flex;
+    background-color: #05080a;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-left: 16px;
+    letter-spacing: 2px;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    gap: 16px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 14px;
+    border-radius: 6px;
+}
+
+.menu a:hover{
+    text-decoration: underline;
+}
+
+a.menu-ativo {
+    background-color: #cbe300;
+    color: #0c1014;
+    pointer-events: none;
+}
+
+.plano{
+    display: flex;
+    gap: 16px;
+}
+
+.escolha{
+   flex: 1;
+   background-color: #1f262c;
+   padding: 30px;
+   border-radius: 6px;
+   box-shadow: 0 5px 15px -6px black;
+   display: flex;
+   flex-direction: column;
+}
+
+.titulo-plano{
+    text-transform: uppercase;
+    border-bottom: 2px solid #cbe300;
+    margin-top: 0px;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.escolha p{
+    margin-top: 0;
+
+}
+
+.valor {
+    font-size: 34px;
+}
+
+.descricao{
+    margin: 0 0 35px;
+    color: #b5b5b5;
+    padding-left: 16px;
+    line-height: 1.8;
+    flex-grow: 1;
+}
+
+.descricao li::marker{
+    color: #cbe300;
+}
+
+.assine{
+    text-decoration: none;
+    color:#0c1014;
+    background-color: #cbe300;
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 16px 10px;
+    text-align: center;
+}
+
+.assine:hover{
+    outline: 2px solid #cbe300;
+    background-color: transparent;
+    color: white;
+}
